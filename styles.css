@@ -30,3 +30,21 @@ button{
 button:hover{
     color: rgb(255, 255, 255);
 }
+
+
+container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+article {
+  flex: 3;
+  padding: 1rem;
+}
+
+aside {
+  flex: 1;
+  padding: 1rem;
+}
