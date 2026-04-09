@@ -2,11 +2,10 @@ body{
     background-color: rgb(52, 52, 52);
     color:aliceblue;
     flex: auto;
-    width: 1080px;
-    height: 720px;
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    align-self: auto;
 }
 nav{
     display: flex;
