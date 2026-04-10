@@ -26,9 +26,13 @@ button{
     color: aliceblue;
     font-size: 1.2em;
     cursor: pointer;
+    border: 1px gray;
+
 }
 button:hover{
     color: rgb(255, 255, 255);
+    border: 1px white;
+
 }
 
 section {
