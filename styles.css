@@ -15,25 +15,27 @@ nav{
     align-items: center;
     height: 60px;
     color: aliceblue;
-    background-color: gray;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 5px;
+    border: 1px solid #ccc;
 }
 a{
     text-decoration: none;
     color: aliceblue;
-}
-button{
     background-color: transparent;
-    color: aliceblue;
     font-size: 1.2em;
     cursor: pointer;
     transition: color 0.3s ease;
-    width: 100px;
+    display: flex;
+    border-radius: 5px;
     height: 50px;
-
+    width: 100px;
+    justify-content: center;
+    align-items: center;
 }
-button:hover{
+a:hover{
     color: orange;
-    background-color: gray;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 section {
